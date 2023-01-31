@@ -1,0 +1,24 @@
+{
+	"plugins": ["plugins/markdown"],
+	"source": {
+		"include": ["pre-assignment/"],
+		"exclude": ["src/"],
+		"includePattern": ".js$",
+		"excludePattern": "(node_modules/|docs)_"
+	},
+	"sourceType": "module",
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": ["jsdoc", "closure"]
+	},
+	"templates": {
+		"cleverLinks": true,
+		"monospaceLinks": false
+	},
+	"opts": {
+		"encoding": "utf8",
+		"destination": "./docs/",
+		"recurse": true,
+		"readme": "README.md" // readme 를 홈에 표시하고 싶을때
+	}
+}
