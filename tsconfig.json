@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // ts 와 js 파일 같이 두기 가능
+    "checkJs": true, // jsdoc 의 @ts-check 기능으로 js 에서의 타입도 체크해준다.
+    "noImplicitAny": true, // 최소한 any 타입 선언은 해줘야함.
+    "module": "es6",
+    "target": "es5",
+    "baseUrl": "./",
+    "lib": ["ES2015", "DOM"],
+    "strict": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

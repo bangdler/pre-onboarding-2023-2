@@ -8,6 +8,7 @@
 	},
 	"devDependencies": {
 		"jsdoc": "^3.6.11",
-		"prettier": "^2.8.3"
+		"prettier": "^2.8.3",
+		"ts-node": "^10.9.1"
 	}
 }
